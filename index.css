@@ -1,3 +1,46 @@
 body {
-    background: url(twink.jpg)
+    background: url(images/twink.jpg);
   }
+
+.center-normal {
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 600
+}
+.center-bold {
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  font-size:32px;
+}
+
+
+#shadowBox {    
+    background-color: rgb(41,28,45);
+    /* Black w/opacity/see-through */
+    border: 0.7rem double #684c6b;
+}
+
+.rainbow {
+    text-align: center;
+    text-decoration: underline;
+    
+}
+.rainbow_text_animated {
+    background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 10s ease-in-out infinite;
+    background-size: 400% 100%;
+}
+
+@keyframes rainbow_animation {
+    0%,100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+}
