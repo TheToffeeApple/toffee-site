@@ -38,12 +38,12 @@ body {
   border: 0.7rem double #684c6b;
 }
 
-.small-box {    
-    width: 12%;
-    text-align: center;
-    padding: 12px;
-    border: 0.2rem solid #684c6b;
-    margin: auto;
+#small-box {    
+  background-color: rgb(41,28,45);
+  border: 0.7rem double #684c6b;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
 }
 /*rainbow font start*/
 #rainbow-box {    
