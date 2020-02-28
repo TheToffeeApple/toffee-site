@@ -39,11 +39,15 @@ body {
 }
 
 .small-box {    
-    width: 12%;
+    width: 15%;
     text-align: center;
     padding: 12px;
     border: 0.2rem solid #684c6b;
     margin: auto;
+    transition-duration: 0.2s;
+}
+.small-box:hover {
+  background-color: black;
 }
 /*rainbow font start*/
 #rainbow-box {    
@@ -129,3 +133,20 @@ animated text
   transform: translateX(0%); 
   }
  }
+
+.close {
+  background-color: rgb(41,28,45);
+  border: 0.7rem double #684c6b;
+  color: #ffffff;
+  font: bold;
+  font-family: 'Ubuntu', sans-serif;
+  padding: 0.7rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: inherit;
+  transition-duration: 0.2s;
+}
+.close:hover{
+  background-color: #684c6b;
+}
